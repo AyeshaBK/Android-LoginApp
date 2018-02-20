@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="cogr.example.summerschool.login.MainActivity">
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="134dp"
+        android:layout_height="56dp"
+        android:background="@drawable/button_round"
+        android:text="Cancel"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/holo_blue_bright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/holo_blue_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/text_round"
+        android:backgroundTint="@android:color/darker_gray"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_blue_light"
+        android:textColorHighlight="@android:color/holo_blue_bright"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@android:color/holo_blue_bright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501"
+        tools:layout_editor_absoluteX="38dp" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/text_round"
+        android:backgroundTint="@android:color/darker_gray"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/holo_blue_light"
+        android:textColorHighlight="@android:color/holo_blue_bright"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@android:color/holo_blue_bright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="134dp"
+        android:layout_height="56dp"
+        android:background="@drawable/button_round"
+        android:text="Submit"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/holo_blue_bright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Attempts Left:"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+</android.support.constraint.ConstraintLayout>
